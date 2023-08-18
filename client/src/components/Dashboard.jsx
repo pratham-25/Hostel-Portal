@@ -36,7 +36,7 @@ const Dashboard = ({ email }) => {
 
     let users;
     try {
-      const res = await axios.get("https://hostelportalpblsem4.herokuapp.com/users")
+      const res = await axios.get("https://hostel-portal.vercel.app/users")
       users = await res.data;
       console.log(users);
       // console.log(currentUser);
@@ -64,7 +64,7 @@ const Dashboard = ({ email }) => {
     } catch (error) {
       console.log(error);
     }
-    // axios.get("https://hostelportalpblsem4.herokuapp.com/users")
+    // axios.get("https://hostel-portal.vercel.app/users")
     //   .then(res => {
     //     users = res.data;
     //     console.log(users);

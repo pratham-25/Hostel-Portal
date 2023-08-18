@@ -14,7 +14,7 @@ const Login = ({ email, setEmail, password, setPassword }) => {
   const loginUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("https://hostelportalpblsem4.herokuapp.com/userlogin", {
+    const res = await fetch("https://hostel-portal.vercel.app/userlogin", {
       method: "POST",
       mode: 'cors',
       // credentials: 'same-origin',

@@ -37,7 +37,7 @@ const Signup = () => {
     } = user;
 
     const res = await fetch(
-      "https://hostelportalpblsem4.herokuapp.com/register",
+      "https://hostel-portal.vercel.app/register",
       {
         // post url in auth.js
         method: "POST",

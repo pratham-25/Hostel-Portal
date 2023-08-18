@@ -9,7 +9,7 @@ const Users = () => {
 
     const fetchBoys = async () => {
         try {
-            const res = await fetch("https://hostelportalpblsem4.herokuapp.com/maleusers")
+            const res = await fetch("https://hostel-portal.vercel.app/maleusers")
 
             const boys = await res.json();
             // boys = res;
@@ -24,7 +24,7 @@ const Users = () => {
     }
     const fetchGirls = async () => {
         try {
-            const res = await fetch("https://hostelportalpblsem4.herokuapp.com/femaleusers")
+            const res = await fetch("https://hostel-portal.vercel.app/femaleusers")
 
             const girls = await res.json();
             // boys = res;
