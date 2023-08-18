@@ -132,7 +132,6 @@ router.post("/register", async (req, res) => {
       return res.status(422).json({ error: "Passwords are not matching!" });
     }
 
-
     if (userExist) {
       console.log(userExist);
       return res.status(422).json({ error: "Email Already Registered!" });
@@ -140,13 +139,15 @@ router.post("/register", async (req, res) => {
       return res.status(422).json({ error: "Passwords are not matching!" });
     }
 
+    const hashedPassword = await bcrypt.hash(password, 10);
+
     const user = new User({
       fullname,
       email,
       userid,
       gender,
       mobile,
-      password,
+      password: hashedPassword,
       confirmPassword,
     });
 
@@ -189,9 +190,7 @@ router.post("/userlogin", async (req, res) => {
       // name,value,callback(optional)
 
       if (!isMatch) {
-        res
-          .status(400)
-          .json({ error: "Invalid Credentials!" });
+        res.status(400).json({ error: "Invalid Credentials!" });
       } else {
         res.json({ message: "Login Successfully!" });
       }
