@@ -1,0 +1,39 @@
+* {
+    margin-bottom: 0;
+    /* overflow: hidden; */
+}
+.col-sm-3{
+    top:0px;
+}
+
+.col-sm-3 {
+    top: 0px;
+}
+
+.col-sm-2 .img-circle {
+    height: 10vh;
+    width: 5vw;
+}
+
+.col-sm-10 {
+    margin-bottom: 2vh;
+}
+
+.form-group .form-control {
+    margin-bottom: 2vh;
+}
+
+.tab-content .col-xs-6 {
+    margin-top: 1.5vh;
+}
+.photo{
+    height:50vh;
+    
+}
+.profile{
+    height:70vh;
+   
+}
+.card-body{
+    overflow-y: hidden;
+}

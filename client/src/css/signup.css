@@ -1,0 +1,97 @@
+body {
+    /* background-color: #12141D; */
+    /* background-image: url(../img/IMG-3244.JPG); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.signupContainer {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 30%;
+    height: auto;
+    border-radius: 2%;
+    /* background-color: #1E2029; */
+    /* background: ; */
+    backdrop-filter: blur(1px);
+    background: rgba(33, 37, 41);
+    box-shadow: 2px 2px 2px 2px rgb(65, 65, 66);
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* .container,.signupContainer {
+    height: auto;
+    width: 40%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.title {
+    /* margin-top: 5vh; */
+    padding-top: 5vh;
+    color: whitesmoke;
+}
+
+.inputFields {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    padding: 0.5vh;
+    border-radius: 4px;
+}
+
+.inputFields:focus-visible {
+    color: whitesmoke !important;
+}
+
+#username {
+    margin-top: 3vh;
+}
+
+#signupBtn {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 100%;
+}
+
+.fields {
+    margin-top: 4vh;
+    color: whitesmoke;
+}
+
+.form-check-label {
+    color: whitesmoke !important;
+    margin-left: 17.5px;
+}
+
+.rememberMe {
+    margin-right: 0.5vh;
+}
+
+.forgotPwd {
+    margin-left: 0.5vh;
+    color: whitesmoke;
+}
+
+.gender {
+    color: whitesmoke;
+}
+
+.female {
+    margin-left: 15vh;
+}
+
+.male {
+    margin-left: 7vh;
+}
+
+.form-check .form-check-input {
+    margin-left: 0px;
+}

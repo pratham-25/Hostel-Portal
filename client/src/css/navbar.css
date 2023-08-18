@@ -1,0 +1,13 @@
+.nav-item {
+    color: rgba(245, 245, 245, 0.663);
+    padding: 0px 15px 0px 15px;
+}
+
+.nav-NavLink {
+    color: rgba(245, 245, 245, 0.766);
+}
+
+.active {
+    color: whitesmoke;
+    /* padding: 0px 15px 0px 15px; */
+}

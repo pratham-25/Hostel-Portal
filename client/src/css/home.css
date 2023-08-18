@@ -1,0 +1,152 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Montserrat",
+        sans-serif;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #D6E4F0;
+    /* background: #007bff; */
+    /* background: linear-gradient(to right, #0062E6, #33AEFF); */
+}
+
+#clgtitle {
+    margin-left: 30vh;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #163172;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #1E56A0;
+    color: black;
+}
+
+/* Header/Blog Title */
+.header {
+    background-color: white;
+    width: 100%;
+    text-size-adjust: fit-content;
+    padding: 1vh;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+.header {
+    font-size: 50px;
+    color: #163172;
+}
+
+.leftcolumn {
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 50%;
+    text-align: center;
+    /* background-color: #007bff; */
+    background-color: #D6E4F0;
+    /* background: linear-gradient(to right, #1b79b8, #519dff); */
+    padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    height: 40vh;
+    background-color: #F6F6F6;
+    padding: 20px;
+    margin-top: 20px;
+    text-overflow: hidden;
+    box-shadow: 4px 8px 8px rgb(60, 60, 60);
+    margin-bottom: 15px;
+    overflow-y: hidden;
+}
+
+.card2 {
+    text-align: justify;
+    height: 90vh;
+    background-color: #F6F6F6;
+    padding-left: 50px;
+    margin: 20px;
+    margin-right: 40px;
+    text-overflow: hidden;
+}
+
+.new {
+    text-align: center;
+    height: 20vh;
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin: 20px;
+    text-overflow: hidden;
+}
+
+h2 {
+    padding: 2vh;
+    overflow-y: hidden;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#clgtitle {
+    vertical-align: middle;
+    margin-top: 5vh;
+    text-align: center;
+    /* margin-left: 12.5%; */
+}
+
+/* Footer */
+/* .footer {
+    padding: 20px;
+    text-align: center;
+    background: #D6E4F0;
+    margin-top: 20px;
+} */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}

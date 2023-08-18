@@ -1,0 +1,20 @@
+#page-content {
+  flex: 1 0 auto;
+}
+
+
+/* Other Classes for Page Styling */
+
+body {
+  /* background: #add5ff;
+  background: linear-gradient(to right, #519dff, #1b79b8); */
+  background-color: #D6E4F0;
+}
+
+#copyrighttext {
+  color: whitesmoke !important;
+}
+
+#sticky-footer {
+  padding-top: 5px;
+}
